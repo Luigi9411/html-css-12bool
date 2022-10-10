@@ -1,0 +1,47 @@
+
+
+[class*=col]{
+    background-color: #006CFA;
+    min-height: 50px;
+    color: white;
+    display: flex;
+    border: 0.05em solid white;
+}
+
+[class*=col2]{
+    background-color:;
+    height: 100px;
+    color: white;
+    display: flex;
+    border: 0.05em solid white;
+}
+
+[class*=col3]{
+    background-color: #00E165;
+    height: 68px;
+    color: white;
+    display: flex;
+    border: 0.05em solid #006CFA;
+}
+
+.col-12,
+.col-6,
+.col-8,
+.col-5,
+.col-2,
+.col-1{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.col3-2,
+.col3-6,
+.col3-8{
+    justify-content: center;
+    align-items: center;
+}
+
+.marg{
+    margin-top: .5em;
+}
